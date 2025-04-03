@@ -78,14 +78,7 @@ source ~/.bashrc
 
 ---
 
-## 2) Get HuggingFace API Key 
-**1- Create account in [HuggingFace](https://huggingface.co/)**
-
-**2- Create an Access Token with `Write` permissions [here](https://huggingface.co/settings/tokens) and save it**
-
----
-
-## 3) Clone the Repository
+## 2) Clone the Repository
 ```bash
 git clone https://github.com/gensyn-ai/rl-swarm/
 ```
@@ -93,13 +86,19 @@ git clone https://github.com/gensyn-ai/rl-swarm/
 cd rl-swarm
 ```
 ---
+---
+
+## 3) Get HuggingFace API Key 
+**1- Create account in [HuggingFace](https://huggingface.co/)**
+
+**2- Create an Access Token with `Write` permissions [here](https://huggingface.co/settings/tokens) and save it**
 
 ## 4) Run the Node (For VPS)
 Open a screen to run it in background
 ```bash
 screen -S swarm
 ```
-### To run the Node
+### To run the Node (WSL and VPS)
 ```bash
 python3 -m venv .venv
 ```
@@ -113,11 +112,33 @@ Press `Y`
 
 ---
 
+## 5) Login
+**1- You have to receive `Waiting for userData.json to be created...` in logs**
 
+![image](https://github.com/user-attachments/assets/140f7d32-844f-4cf0-aac4-a91e9a14c1aa)
 
+**2- Open login page in browser**
+* **Local PC:** `http://localhost:3000/`
+* **VPS users:** Do not receive OTP code in emails by logging in 3000 port on browser. You have to forward port by entering a command in their local pc powershell command prompt. (Step 3 of this section)
 
-
-
+**3- ⚠️ If you can't login or no email code received, Forward port:** (ONLY FOR VPS USERS)
+* In windows start menu, Search **Powershell** and open its terminal in your local PC
+* Enter the command below and replace your vps ip with `Server_IP` and your vps port(.eg 22) with `SSH_PORT`
+```
+ssh -L 3000:localhost:3000 root@Server_IP -p SSH_PORT
+```
+### Example
+```
+ssh -L 3000:localhost:3000 root@137.12.0.0 -p 22
+```
+``
+    *After you enter this command type `YES` and Provide your VPS Password 
+    
+---
+    
+* 🔴 Make sure you enter the command in your own local Windows Powershell cmd and NOT your VPS terminal.
+* This prompts you to enter your VPS password, when you enter it, you connect and tunnel to your vps
+* Now go to browser and open `http://localhost:3000/` and login
 
 * Official dashboard: https://dashboard.gensyn.ai/
 
