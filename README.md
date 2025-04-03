@@ -14,4 +14,4 @@ OR
 
 🔶 Python >=3.10 (for Mac, you will likely need to upgrade)
 
-# Check Out the Node Click Here
+# Check Out the Node [Click Here](https://github.com/AdityaNarayan02/Gynsen-Node/blob/main/Installation.md#install-dependencies)
