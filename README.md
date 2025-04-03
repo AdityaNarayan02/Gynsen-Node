@@ -2,7 +2,7 @@
 
 ## Ensure you that you are using a supported machine/device/environment:
 
-🔴 arm64 or x86 CPU with minimum 16gb ram
+🔴 arm64 or x86 CPU with minimum 16gb ram (for smooth performance 32GB or any configuration more than 16GB is required)
 
 OR
 
