@@ -90,6 +90,11 @@ git clone https://github.com/gensyn-ai/rl-swarm/
 cd rl-swarm
 ```
 ---
+## Download Node Requirements
+```
+pip install -r requirements.txt
+```
+
 ---
 
 ## 3) Get HuggingFace API Key 
