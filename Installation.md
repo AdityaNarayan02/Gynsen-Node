@@ -112,6 +112,11 @@ python3 -m venv .venv
 ```
 source .venv/bin/activate
 ```
+### Here's an optional step( if you're encountering errors for outdated builds)
+```
+pip install -r requirements.txt
+```
+* Start the Node
 ```
 ./run_rl_swarm.sh
 ```
