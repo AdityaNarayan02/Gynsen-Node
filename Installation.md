@@ -90,10 +90,6 @@ git clone https://github.com/gensyn-ai/rl-swarm/
 cd rl-swarm
 ```
 ---
-## Download Node Requirements
-```
-pip install -r requirements.txt
-```
 
 ---
 
@@ -152,3 +148,26 @@ ssh -L 3000:localhost:3000 root@137.12.0.0 -p 22
 * Official dashboard: https://dashboard.gensyn.ai/
 
 **You can search your Node name in the dashboard after a while when you have done your first training completed**
+
+# For Next Day 
+## VPS
+```bash
+screen -S swarm
+```
+
+## For WSL ans VPS
+```bash
+python3 -m venv .venv
+```
+```
+source .venv/bin/activate
+```
+```
+./run_rl_swarm.sh
+```
+Press `Y`
+
+---
+
+MY TG- @Ghosty880
+
