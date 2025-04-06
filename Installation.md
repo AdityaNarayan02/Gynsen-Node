@@ -125,6 +125,13 @@ yarn install
 ```
 yarn upgrade &&  yarn add next@latest &&  yarn add viem@latest
 ```
+```
+cd..
+```
+```
+cd rl-swarm
+```
+
 
 * Start the Node
 ```
