@@ -174,6 +174,10 @@ ssh -L 3000:localhost:3000 root@137.12.0.0 -p 22
 **You can search your Node name in the dashboard after a while when you have done your first training completed**
 
 # For Next Day 
+```
+cd rl-swarm
+```
+
 ## VPS
 ```bash
 screen -S swarm
