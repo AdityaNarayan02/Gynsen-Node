@@ -155,7 +155,7 @@ ssh -L 3000:localhost:3000 root@137.12.0.0 -p 22
 screen -S swarm
 ```
 
-## For WSL ans VPS
+## For WSL and VPS
 ```bash
 python3 -m venv .venv
 ```
