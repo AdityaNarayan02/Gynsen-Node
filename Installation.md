@@ -116,6 +116,16 @@ source .venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+```
+cd modal-login
+```
+```
+yarn install
+```
+```
+yarn upgrade &&  yarn add next@latest &&  yarn add viem@latest
+```
+
 * Start the Node
 ```
 ./run_rl_swarm.sh
